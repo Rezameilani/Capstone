@@ -2,10 +2,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 mb-3">
-                <h1 class="text-warning">HyperMart</h1>
+                <h1 class="text-warning">GolekTukang</h1>
                 {{-- <img src="/assets/img/logo-hypermart-main-1.png" alt=""> --}}
-                <p class="text-light">HyperMakert merupakan platform perbelajaan berbagai fashion kekinian dan memberikan
-                    pelayanan maksimal dengan tampilan yang user frendly</p>
+                <p class="text-light">GolekTukang merupakan sebuah web yang memudahkan pengguna untuk melakukan
+                    pencarian jasa berbagai jenis tukang sesuai dengan profesi masing- masing. Tersedia berbagai macam
+                    tukang yang profesional dibidangnya masing- masing.
+                </p>
             </div>
             <div class="col-md-2 mb-3">
                 <header>
@@ -44,11 +46,9 @@
                     <h5 class="text-warning">Contact Us</h5>
                 </header>
                 <div class="social-media d-flex gap-3">
-                    <a href="https://www.instagram.com/al_irfan_y" target="_blank" class="fs-4"><i
+                    <a href="https://www.instagram.com/sls__na" target="_blank" class="fs-4"><i
                             class="fa-brands fa-instagram"></i></a>
-                    <a href="https://wa.me/087859967039" class="fs-4"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="https://github.com/alirfanyasin" target="_blank" class="fs-4"><i
-                            class="fa-brands fa-github"></i></a>
+                    <a href="https://wa.me/+6281238797336" class="fs-4"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
             </div>
             <div class="col-md-2 mb-3">
@@ -62,8 +62,9 @@
         </div>
         <div class="row mt-5">
             <div class="col text-center">
-                <p class="text-light">Copyright &copy; 2023 by <a href="https://github.com/alirfanyasin"
-                        class="text-warning text-decoration-none" target="_blank">Irfan Yasin</a></p>
+                <p
+                    class="text-light">Copyright &copy; 2024 by GolekTukang
+                </p>
             </div>
         </div>
     </div>

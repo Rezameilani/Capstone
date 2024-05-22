@@ -7,7 +7,7 @@
     <div class="container my-4">
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-                <form method="POST" class="position-relative">
+                {{-- <form method="POST" class="position-relative">
                     @csrf
                     <div>
                         <span class="position-absolute text-secondary fs-5" style="margin-left: 10px; line-height: 40px;">
@@ -17,8 +17,7 @@
                             name="search" id="search" placeholder="Find your favorite product..."
                             style="padding-left: 40px" required minlength="3" maxlength="100" aria-label="Search products">
                     </div>
-                </form>
-
+                </form> --}}
             </div>
         </div>
     </div>

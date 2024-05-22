@@ -19,10 +19,10 @@
                          <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="/"><i
                                  class="fa-solid fa-house"></i> Home</a>
                      </li>
-                     <li class="nav-item">
+                     {{-- <li class="nav-item">
                          <a class="nav-link {{ Request::is('product') ? 'active' : '' }}" href="/product"><i
                                  class="fa-solid fa-boxes-stacked"></i> Product</a>
-                     </li>
+                     </li> --}}
                      <li class="nav-item">
                          <a class="nav-link {{ Request::is('auth/login') ? 'active' : '' }}" href="/auth/login"><i
                                  class="fa-solid fa-right-to-bracket"></i> Login</a>
