@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="/assets/img/logo-hypermart-main.png">
 
-    <title>HyperMart - Login</title>
+    <title>GolekTukang - Login @yield('title')</title>
+    <link rel="shortcut icon" href="/assets/img/logo-singkat.png">
 
     {{-- Auth css --}}
     <link rel="stylesheet" href="/assets/css/auth.css">
@@ -22,8 +22,8 @@
             </div>
             <div class="col-md-6">
                 <div class="mt-5">
-                    <header class="d-flex justify-content-center ">
-                        <img src="/assets/img/logo-hypermart-main.png" alt="" width="100px">
+                    <header class="d-flex justify-content-center">
+                        <img src="/assets/img/logo-singkat.png" alt="" width="100px">
                     </header>
                     <div class="row justify-content-center px-3 mt-5">
                         <div class="col-md-6">
@@ -58,7 +58,7 @@
                             </form>
 
                             <p class="text-center mt-3">You don't have account? <a href="/auth/register"
-                                    class="fw-bold text-decoration-none text-dark">Register</a></p>
+                                    class="fw-bold text-decoration-none text-dark"><u>Register</u></a></p>
                         </div>
                     </div>
 

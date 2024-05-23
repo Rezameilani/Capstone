@@ -56,7 +56,7 @@
                     <h5 class="text-warning">About Us</h5>
                 </header>
                 <div class="link-about-us d-flex gap-3">
-                    <a href="#" class="text-decoration-none">Read more -></a>
+                    <a href="#" class="text-decoration-none">Read more <i class="fa-solid fa-newspaper"></i></a>
                 </div>
             </div>
         </div>

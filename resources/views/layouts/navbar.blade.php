@@ -1,7 +1,7 @@
  {{-- Start: Navbar --}}
  <div class="nav-brand text-dark my-2 text-center">
      <a href="/" class="d-block">
-         <img src="/assets/img/logo.png" alt="" width="250px">
+         <img src="/assets/img/logo-block.png" alt="" width="250px">
      </a>
  </div>
  <nav class="navbar navbar-expand-lg bg-warning">

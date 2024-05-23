@@ -9,19 +9,19 @@
             <div class="gradient"></div>
             <div class="tagline position-absolute text-white text-center">
                 <div class="text">
-                    <h1>Discover <span class="text-warning"> endless possibilities</span> <br> with our vast selection of
-                        products</h1>
+                    <h1>Bingung Cari Tukang? <span class="text-warning"> GolekTukang</span> <br> solusi terbaik untuk Anda
+                    </h1>
                 </div>
                 @auth
                     <div class="button mt-5">
                         <a href="{{ auth()->user()->role == 'admin' ? '/my/dashboard/product' : '/my/product' }}"
-                            class="btn btn-outline-warning py-2 px-5">Shop Now <i class="fa-solid fa-cart-shopping"></i></a>
+                            class="btn btn-outline-warning py-2 px-5">Check Data <i class="fa-solid fa-circle-info"></i></a>
                     </div>
                 @endauth
                 @guest
                     <div class="button mt-5">
-                        <a href="/product" class="btn btn-outline-warning py-2 px-5">Shop Now <i
-                                class="fa-solid fa-cart-shopping"></i></a>
+                        <a href="/product" class="btn btn-outline-warning py-2 px-5">Ask Anything <i
+                                class="fa-solid fa-circle-question"></i></a>
                     </div>
                 @endguest
 

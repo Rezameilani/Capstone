@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="/assets/img/logo-hypermart-main.png">
+    <link rel="shortcut icon" href="/assets/img/logo-singkat.png">
 
-    <title>HyperMart - Register</title>
+    <title>GolekTukang - Register</title>
 
     {{-- Auth css --}}
     <link rel="stylesheet" href="/assets/css/auth.css">
@@ -22,9 +22,9 @@
             </div>
             <div class="col-md-6">
                 <div class="mt-5">
-                    {{-- <header class="d-flex justify-content-center">
-                        <img src="/assets/img/logo-hypermart-main.png" alt="" width="100px">
-                    </header> --}}
+                    <header class="d-flex justify-content-center">
+                        <img src="/assets/img/logo-singkat.png" alt="" width="100px">
+                    </header>
                     <div class="row justify-content-center px-3 mt-5">
                         <div class="col-md-6">
                             <h2 class="fw-bold text-warning mb-4">Register</h2>
