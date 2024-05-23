@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HyperMart - @yield('title')</title>
+    <title>GolekTukang - @yield('title')</title>
 
-    <link rel="shortcut icon" href="/assets/img/logo-hypermart-main.png">
+    <link rel="shortcut icon" href="/assets/img/logo-singkat.png">
 
     {{-- My CSS --}}
     <link rel="stylesheet" href="/assets/css/my.css">

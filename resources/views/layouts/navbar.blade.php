@@ -1,7 +1,7 @@
  {{-- Start: Navbar --}}
  <div class="nav-brand text-dark my-2 text-center">
      <a href="/" class="d-block">
-         <img src="/assets/img/logo-hypermart-main-1.png" alt="" width="250px">
+         <img src="/assets/img/logo.png" alt="" width="250px">
      </a>
  </div>
  <nav class="navbar navbar-expand-lg bg-warning">
@@ -19,10 +19,13 @@
                          <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="/"><i
                                  class="fa-solid fa-house"></i> Home</a>
                      </li>
+
+                     {{-- halaman search --}}
                      {{-- <li class="nav-item">
                          <a class="nav-link {{ Request::is('product') ? 'active' : '' }}" href="/product"><i
                                  class="fa-solid fa-boxes-stacked"></i> Product</a>
                      </li> --}}
+
                      <li class="nav-item">
                          <a class="nav-link {{ Request::is('auth/login') ? 'active' : '' }}" href="/auth/login"><i
                                  class="fa-solid fa-right-to-bracket"></i> Login</a>
