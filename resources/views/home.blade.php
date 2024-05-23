@@ -9,12 +9,13 @@
             <div class="gradient"></div>
             <div class="tagline text-white text-center">
                 <div class="text">
-                    <h1>Discover <span class="text-warning"> endless possibilities</span> <br> with our vast selection of
-                        products</h1>
+                    <h1>Discover <span class="text-warning"> endless possibilities</span> <br> with a wide selection of
+                        craftsmen at GolekTukang
+                    </h1>
                 </div>
 
                 <div class="button mt-5">
-                    <a href="/product" class="btn btn-outline-warning py-2 px-5">Shop Now <i
+                    <a href="/product" class="btn btn-outline-warning py-2 px-5">Add Now <i
                             class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>

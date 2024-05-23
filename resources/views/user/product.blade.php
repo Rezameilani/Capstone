@@ -68,7 +68,7 @@
             @if (auth()->user()->role == 'admin')
                 <div class="mb-3">
                     <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#add_product">Add
-                        Product</a>
+                        Tukang</a>
                 </div>
                 <div class="table-responsive">
                     <table class="table table-striped">
@@ -79,7 +79,6 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Price</th>
                                 <th scope="col">Stock</th>
-                                <th scope="col">Size</th>
                                 <th scope="col">Action</th>
                             </tr>
                         </thead>
@@ -94,7 +93,7 @@
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header bg-warning">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Add Product</h1>
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Add Tukang</h1>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <form action="/my/dashboard/add-product" method="POST" id="add-product-form"
@@ -127,31 +126,24 @@
                                                 <label for="category" class="form-label fw-bold">Category</label>
                                                 <select class="form-select" id="category" name="category">
                                                     <option selected disabled>Choose</option>
-                                                    <option value="Pakaian Pria">Pakaian Pria</option>
-                                                    <option value="Celana Pria">Celana Pria</option>
-                                                    <option value="Sepatu Pria">Sepatu Pria</option>
-                                                    <option value="Tas Pria">Tas Pria</option>
-                                                    <option value="Aksesoris">Aksesoris</option>
-                                                    <option value="Jam Tangan">Jam Tangan</option>
-                                                    <option value="Pakaian Wanita">Pakaian Wanita</option>
-                                                    <option value="Fashion Muslimah">Fashion Muslimah</option>
+                                                    <option value="Tukang Saluran Air">Tukang Saluran Aira</option>
+                                                    <option value="Tukang Beberes Rumah">Tukang Beberes Rumah</option>
+                                                    <option value="Tukang Bangunan">Tukang Bangunan</option>
+                                                    <option value="Tukang Pintu">Tukang Pintu</option>
+                                                    <option value="Tukang Kebun">Tukang Kebun</option>
+                                                    <option value="Tukang Listrik">Tukang Listrik</option>
+                                                    <option value="Tukang Plester">Tukang Plester</option>
+                                                    <option value="Tukang Waterproofing">Tukang Waterproofing</option>
                                                     <option value="Tas Wanita">Tas Wanita</option>
-                                                    <option value="Sepatu Wanita">Sepatu Wanita</option>
-                                                    <option value="Fashion Anak">Fashion Anak</option>
-                                                    <option value="Sepatu Anak">Sepatu Anak</option>
+                                                    <option value="Tukang Galia"> Tukang Galia</option>
                                                 </select>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="size" class="form-label fw-bold">Size</label>
-                                                <input type="text" class="form-control" id="size" name="size"
-                                                    placeholder="example: S, M, L, XL">
                                             </div>
                                         </div>
                                     </div>
 
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="submit" class="btn btn-dark">Add Product</button>
+                                    <button type="submit" class="btn btn-dark">Add Tukang</button>
                                 </div>
                             </form>
                         </div>
@@ -164,7 +156,7 @@
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header bg-warning">
-                                <h5 class="modal-title" id="exampleModalLabel">Edit Product</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Edit Tukang</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
@@ -181,7 +173,7 @@
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header bg-warning">
-                                <h5 class="modal-title" id="product-detail-modal-label">Detail Product</h5>
+                                <h5 class="modal-title" id="product-detail-modal-label">Detail Tukang</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
