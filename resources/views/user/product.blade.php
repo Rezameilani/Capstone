@@ -7,7 +7,7 @@
     <div class="container my-4">
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-                {{-- <form method="POST" class="position-relative">
+                <form method="POST" class="position-relative">
                     @csrf
                     <div>
                         <span class="position-absolute text-secondary fs-5" style="margin-left: 10px; line-height: 40px;">
@@ -17,7 +17,7 @@
                             name="search" id="search" placeholder="Find your favorite product..."
                             style="padding-left: 40px" required minlength="3" maxlength="100" aria-label="Search products">
                     </div>
-                </form> --}}
+                </form>
             </div>
         </div>
     </div>
@@ -79,7 +79,7 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Price</th>
                                 <th scope="col">Stock</th>
-                                <th scope="col">Action</th>
+                                {{-- <th scope="col">Action</th> --}}
                             </tr>
                         </thead>
                         <tbody style="vertical-align: middle" id="product-table-body" class="search-results">
@@ -100,7 +100,7 @@
                                 enctype="multipart/form-data">
                                 @csrf
                                 <div class="modal-body">
-                                    {{-- <div id="error-message" class="alert alert-danger" style="display:none"></div> --}}
+                                    <div id="error-message" class="alert alert-danger" style="display:none"></div>
                                     <div class="row">
                                         <div class="col-md-5">
                                             <img id="preview-image" src="/assets/img/no-image.jpg" alt="no-image" width="100%"
@@ -122,11 +122,11 @@
                                                 <label for="stock" class="form-label fw-bold">Stock</label>
                                                 <input type="number" class="form-control" id="stock" name="stock">
                                             </div>
-                                            <div class="mb-3">
+                                            {{-- <div class="mb-3">
                                                 <label for="category" class="form-label fw-bold">Category</label>
                                                 <select class="form-select" id="category" name="category">
                                                     <option selected disabled>Choose</option>
-                                                    <option value="Tukang Saluran Air">Tukang Saluran Aira</option>
+                                                    <option value="Tukang Saluran Air">Tukang Saluran Air</option>
                                                     <option value="Tukang Beberes Rumah">Tukang Beberes Rumah</option>
                                                     <option value="Tukang Bangunan">Tukang Bangunan</option>
                                                     <option value="Tukang Pintu">Tukang Pintu</option>
@@ -135,9 +135,9 @@
                                                     <option value="Tukang Plester">Tukang Plester</option>
                                                     <option value="Tukang Waterproofing">Tukang Waterproofing</option>
                                                     <option value="Tas Wanita">Tas Wanita</option>
-                                                    <option value="Tukang Galia"> Tukang Galia</option>
+                                                    <option value="Tukang Gali"> Tukang Gali</option>
                                                 </select>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                     </div>
 

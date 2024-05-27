@@ -38,7 +38,7 @@
                                 <img src="/assets/img/product-1.png" class="w-100" alt="...">
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Pakaian Pria</p>
+                                <p class="card-text">Tukang Saluran Air</p>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                                 <img src="/assets/img/product-2.png" class="w-100" alt="...">
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Celana Pria</p>
+                                <p class="card-text">Tukang Plester</p>
                             </div>
                         </div>
                     </div>
@@ -58,48 +58,27 @@
                                 <img src="/assets/img/product-3.png" class="w-100" alt="...">
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Sepatu Pria</p>
+                                <p class="card-text">Tukang Pintu</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
-                        <div class="text-center">
-                            <div class="img-category rounded-pill mt-2 mx-auto" style="width: 100px; height: 100px;">
-                                <img src="/assets/img/product-9.png" class="w-100" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">Tas Pria</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
-                        <div class="text-center">
-                            <div class="img-category rounded-pill mt-2 mx-auto" style="width: 100px; height: 100px;">
-                                <img src="/assets/img/product-10.png" class="w-100" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">Aksesoris</p>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
                         <div class="text-center">
                             <div class="img-category rounded-pill mt-2 mx-auto" style="width: 100px; height: 100px;">
                                 <img src="/assets/img/product-6.png" class="w-100" alt="...">
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Jam Tangan</p>
+                                <p class="card-text">Tukang Bangunan</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
                         <div class="text-center">
-                            <div class="img-category rounded-pill mt-2 mx-auto" style="width: 200px; height: 200px;">
+                            <div class="img-category rounded-pill mt-2 mx-auto" style="width: 100px; height: 100px;">
                                 <img src="/assets/img/product-7.png" class="w-100" alt="...">
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Pakaian Wanita</p>
+                                <p class="card-text">Tukang Beberes Rumah</p>
                             </div>
                         </div>
                     </div>
@@ -109,7 +88,7 @@
                                 <img src="/assets/img/product-8.png" class="w-100" alt="...">
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Fashion Muslimah</p>
+                                <p class="card-text">Tukang Waterproofing</p>
                             </div>
                         </div>
                     </div>
@@ -119,11 +98,11 @@
                                 <img src="/assets/img/product-4.png" class="w-100" alt="...">
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Tas Wanita</p>
+                                <p class="card-text">Tukang Plester</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    {{-- <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
                         <div class="text-center">
                             <div class="img-category rounded-pill mt-2 mx-auto" style="width: 100px; height: 100px;">
                                 <img src="/assets/img/product-11.png" class="w-100" alt="...">
@@ -152,7 +131,7 @@
                                 <p class="card-text">Sepatu Anak</p>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
 
                 </div>
