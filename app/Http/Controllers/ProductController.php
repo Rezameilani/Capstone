@@ -12,7 +12,7 @@ class ProductController extends Controller
     {
         return view('product');
     }
-    
+
 
     public function read_product()
     {
@@ -21,7 +21,7 @@ class ProductController extends Controller
         ]);
     }
 
-   
+
     public function show($id) {
         return view('user.component.data_modal_detail_product')->with([
             'data' => Product::find($id)
@@ -30,9 +30,9 @@ class ProductController extends Controller
 
     public function search(Request $request)
     {
-       
+
         if (!empty($request->query)) {
-            $query = $request->input('query');
+            $query = $request->input('query')??'';
             $products = Product::where('name', 'LIKE', '%'.$query.'%')->get();
             return view('search_results')->with([
                 'data' => $products,

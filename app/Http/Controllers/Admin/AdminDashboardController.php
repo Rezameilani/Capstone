@@ -37,7 +37,7 @@ class AdminDashboardController extends Controller
             'price' => 'required',
             'stock' => 'required',
             'category' => 'required',
-            'size' => 'required',
+            // 'size' => 'required',
             'image' => 'required|image|mimes:jpeg,jpg,png|max:2048'
         ]);
 
@@ -75,13 +75,13 @@ class AdminDashboardController extends Controller
         return view('user.component.data_edit_product_admin')->with([
             'data' => Product::find($id)
         ]);
-        
+
     }
 
     public function update(Request $request, $id){
 
         $product = Product::find($id);
-    
+
         // Validasi input
         $request->validate([
             'name' => 'required|unique:products,name,'.$product->id,
@@ -91,7 +91,7 @@ class AdminDashboardController extends Controller
             'size' => 'required',
             'image' => 'nullable|image|mimes:jpeg,jpg,png|max:2048'
         ]);
-    
+
         // Jika ada gambar yang diupload
         if ($request->hasFile('image')) {
             // Hapus gambar lama jika ada
@@ -102,10 +102,10 @@ class AdminDashboardController extends Controller
             $image = $request->file('image');
             $imageName = time() . '_' . $image->getClientOriginalName();
             $image->move(public_path('images'), $imageName);
-    
+
             $product->image = $imageName;
         }
-    
+
         // Simpan data produk ke database
         $product->name = $request->name;
         $product->price = $request->price;
@@ -113,24 +113,24 @@ class AdminDashboardController extends Controller
         $product->category = $request->category;
         $product->size = $request->size;
         $product->save();
-    
+
         return response()->json([
             'success' => true,
         ]);
-    }    
+    }
 
 
     public function destroy($id)
     {
         $product = Product::findOrFail($id);
         $imagePath = public_path('images/' . $product->image);
-    
+
         if (file_exists($imagePath)) {
             unlink($imagePath);
         }
-    
+
         $product->delete();
-    
+
         return response()->json([
             'success' => true,
         ]);

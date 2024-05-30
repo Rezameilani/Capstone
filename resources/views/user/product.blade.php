@@ -79,7 +79,6 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Price</th>
                                 <th scope="col">Stock</th>
-                                {{-- <th scope="col">Action</th> --}}
                             </tr>
                         </thead>
                         <tbody style="vertical-align: middle" id="product-table-body" class="search-results">
@@ -137,6 +136,11 @@
                                                     <option value="Tas Wanita">Tas Wanita</option>
                                                     <option value="Tukang Gali"> Tukang Gali</option>
                                                 </select>
+                                            </div>
+                                            {{-- <div class="mb-3">
+                                                <label for="size" class="form-label fw-bold">Size</label>
+                                                <input type="text" class="form-control" id="size" name="size"
+                                                    placeholder="example: S, M, L, XL">
                                             </div> --}}
                                         </div>
                                     </div>
