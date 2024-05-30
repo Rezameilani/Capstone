@@ -79,7 +79,7 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Price</th>
                                 <th scope="col">Stock</th>
-                                <th scope="col">Size</th>
+                                {{-- <th scope="col">Size</th> --}}
                                 <th scope="col">Action</th>
                             </tr>
                         </thead>
@@ -141,11 +141,11 @@
                                                     <option value="Sepatu Anak">Sepatu Anak</option>
                                                 </select>
                                             </div>
-                                            <div class="mb-3">
+                                            {{-- <div class="mb-3">
                                                 <label for="size" class="form-label fw-bold">Size</label>
                                                 <input type="text" class="form-control" id="size" name="size"
                                                     placeholder="example: S, M, L, XL">
-                                            </div>
+                                            </div> --}}
                                         </div>
                                     </div>
 

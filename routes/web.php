@@ -98,3 +98,4 @@ Route::prefix('auth')->group(function() {
     Route::post('login',[AuthenticationController::class, 'login'])->middleware('guest')->name('login');
     Route::post('logout',[AuthenticationController::class, 'logout'])->middleware('auth');
 });
+
