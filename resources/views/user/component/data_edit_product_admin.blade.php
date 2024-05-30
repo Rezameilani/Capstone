@@ -21,7 +21,7 @@
                 <label for="stock" class="form-label fw-bold">Stock</label>
                 <input type="number" class="form-control" id="stock" name="stock" value="{{ $data->stock }}">
             </div>
-            {{-- <div class="mb-3">
+            <div class="mb-3">
                 <label for="category" class="form-label fw-bold">Category</label>
                 <select class="form-select" id="category" name="category">
                     <option selected disabled>Choose</option>
@@ -50,12 +50,12 @@
                     <option value="Sepatu Anak" {{ $data->category == 'Sepatu Anak' ? 'selected' : '' }}>Sepatu Anak
                     </option>
                 </select>
-            </div> --}}
-            {{-- <div class="mb-3">
+            </div>
+            <div class="mb-3">
                 <label for="size" class="form-label fw-bold">Size</label>
                 <input type="text" class="form-control" id="size" name="size"
                     placeholder="example: S, M, L, XL" value="{{ $data->size }}">
-            </div> --}}
+            </div>
         </div>
     </div>
     <div class="modal-footer">

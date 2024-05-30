@@ -9,13 +9,12 @@
             <div class="gradient"></div>
             <div class="tagline text-white text-center">
                 <div class="text">
-                    <h1>Discover <span class="text-warning"> endless possibilities</span> <br> with a wide selection of
-                        craftsmen at GolekTukang
-                    </h1>
+                    <h1>Discover <span class="text-warning"> endless possibilities</span> <br> with our vast selection of
+                        products</h1>
                 </div>
 
                 <div class="button mt-5">
-                    <a href="/product" class="btn btn-outline-warning py-2 px-5">Add Now <i
+                    <a href="/product" class="btn btn-outline-warning py-2 px-5">Shop Now <i
                             class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
@@ -38,7 +37,7 @@
                                 <img src="/assets/img/product-1.png" class="w-100" alt="...">
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Tukang Saluran Air</p>
+                                <p class="card-text">Pakaian Pria</p>
                             </div>
                         </div>
                     </div>
@@ -48,7 +47,7 @@
                                 <img src="/assets/img/product-2.png" class="w-100" alt="...">
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Tukang Plester</p>
+                                <p class="card-text">Celana Pria</p>
                             </div>
                         </div>
                     </div>
@@ -58,27 +57,48 @@
                                 <img src="/assets/img/product-3.png" class="w-100" alt="...">
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Tukang Pintu</p>
+                                <p class="card-text">Sepatu Pria</p>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                        <div class="text-center">
+                            <div class="img-category rounded-pill mt-2 mx-auto" style="width: 100px; height: 100px;">
+                                <img src="/assets/img/product-9.png" class="w-100" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Tas Pria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                        <div class="text-center">
+                            <div class="img-category rounded-pill mt-2 mx-auto" style="width: 100px; height: 100px;">
+                                <img src="/assets/img/product-10.png" class="w-100" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Aksesoris</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
                         <div class="text-center">
                             <div class="img-category rounded-pill mt-2 mx-auto" style="width: 100px; height: 100px;">
                                 <img src="/assets/img/product-6.png" class="w-100" alt="...">
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Tukang Bangunan</p>
+                                <p class="card-text">Jam Tangan</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
                         <div class="text-center">
-                            <div class="img-category rounded-pill mt-2 mx-auto" style="width: 100px; height: 100px;">
+                            <div class="img-category rounded-pill mt-2 mx-auto" style="width: 200px; height: 200px;">
                                 <img src="/assets/img/product-7.png" class="w-100" alt="...">
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Tukang Beberes Rumah</p>
+                                <p class="card-text">Pakaian Wanita</p>
                             </div>
                         </div>
                     </div>
@@ -88,7 +108,7 @@
                                 <img src="/assets/img/product-8.png" class="w-100" alt="...">
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Tukang Waterproofing</p>
+                                <p class="card-text">Fashion Muslimah</p>
                             </div>
                         </div>
                     </div>
@@ -98,11 +118,11 @@
                                 <img src="/assets/img/product-4.png" class="w-100" alt="...">
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Tukang Plester</p>
+                                <p class="card-text">Tas Wanita</p>
                             </div>
                         </div>
                     </div>
-                    {{-- <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
                         <div class="text-center">
                             <div class="img-category rounded-pill mt-2 mx-auto" style="width: 100px; height: 100px;">
                                 <img src="/assets/img/product-11.png" class="w-100" alt="...">
@@ -131,7 +151,7 @@
                                 <p class="card-text">Sepatu Anak</p>
                             </div>
                         </div>
-                    </div> --}}
+                    </div>
 
 
                 </div>
