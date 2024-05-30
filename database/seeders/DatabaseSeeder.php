@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class DatabaseSeeder extends Seeder
 {
@@ -14,19 +14,25 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        // Hapus semua data dari tabel carts
+        DB::table('carts')->delete();
 
+        // Hapus semua data dari tabel users
+        DB::table('users')->delete();
+
+        // Create users
         \App\Models\User::factory()->create([
             'name' => 'Admin',
             'email' => 'admin@gmail.com',
-            'password' =>  bcrypt('password'),
-            'role' => 'admin'
+            'password' => bcrypt('password'),
+            'role' => 'admin',
         ]);
+
         \App\Models\User::factory()->create([
             'name' => 'User',
             'email' => 'user@gmail.com',
-            'password' =>  bcrypt('password'),
-            'role' => 'user'
+            'password' => bcrypt('password'),
+            'role' => 'user',
         ]);
     }
 }
