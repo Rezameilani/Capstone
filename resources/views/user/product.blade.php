@@ -145,6 +145,11 @@
                                                 <label for="size" class="form-label fw-bold">Size</label>
                                                 <input type="text" class="form-control" id="size" name="size"
                                                     placeholder="example: S, M, L, XL">
+                                            </div>
+                                            {{-- <div class="mb-3">
+                                                <label for="size" class="form-label fw-bold">Size</label>
+                                                <input type="text" class="form-control" id="size" name="size"
+                                                    placeholder="example: S, M, L, XL">
                                             </div> --}}
                                         </div>
                                     </div>
