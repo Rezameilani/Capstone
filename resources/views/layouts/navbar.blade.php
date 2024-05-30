@@ -58,10 +58,10 @@
                                  </li>
                                  <hr class="dropdown-divider">
 
-                                 {{-- <li><a class="dropdown-item {{ Request::is('my/dashboard/buyer') ? 'active' : '' }}"
+                                 <li><a class="dropdown-item {{ Request::is('my/dashboard/buyer') ? 'active' : '' }}"
                                          href="/my/dashboard/buyer"><i class="fa-solid fa-bag-shopping"></i>
                                          Buyer </a>
-                                 </li> --}}
+                                 </li>
                                  <hr class="dropdown-divider">
 
                                  <li><a class="dropdown-item {{ Request::is('my/dashboard/users') ? 'active' : '' }}"
