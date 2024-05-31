@@ -88,7 +88,7 @@ class AdminDashboardController extends Controller
             'price' => 'required',
             'stock' => 'required',
             'category' => 'required',
-            'size' => 'required',
+            // 'size' => 'required',
             'image' => 'nullable|image|mimes:jpeg,jpg,png|max:2048'
         ]);
 

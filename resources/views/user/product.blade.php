@@ -79,6 +79,7 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Price</th>
                                 <th scope="col">Stock</th>
+                                <th scope="col">Action</th>
                             </tr>
                         </thead>
                         <tbody style="vertical-align: middle" id="product-table-body" class="search-results">
@@ -121,20 +122,18 @@
                                                 <label for="stock" class="form-label fw-bold">Stock</label>
                                                 <input type="number" class="form-control" id="stock" name="stock">
                                             </div>
-                                            {{-- <div class="mb-3">
+                                            <div class="mb-3">
                                                 <label for="category" class="form-label fw-bold">Category</label>
                                                 <select class="form-select" id="category" name="category">
                                                     <option selected disabled>Choose</option>
                                                     <option value="Tukang Saluran Air">Tukang Saluran Air</option>
                                                     <option value="Tukang Beberes Rumah">Tukang Beberes Rumah</option>
                                                     <option value="Tukang Bangunan">Tukang Bangunan</option>
-                                                    <option value="Tukang Pintu">Tukang Pintu</option>
+                                                    <option value="Tu{kang Pintu">Tukang Pintu</option>
                                                     <option value="Tukang Kebun">Tukang Kebun</option>
                                                     <option value="Tukang Listrik">Tukang Listrik</option>
                                                     <option value="Tukang Plester">Tukang Plester</option>
                                                     <option value="Tukang Waterproofing">Tukang Waterproofing</option>
-                                                    <option value="Tas Wanita">Tas Wanita</option>
-                                                    <option value="Tukang Gali"> Tukang Gali</option>
                                                 </select>
                                             </div>
                                             {{-- <div class="mb-3">

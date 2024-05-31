@@ -21,36 +21,20 @@
                 <label for="stock" class="form-label fw-bold">Stock</label>
                 <input type="number" class="form-control" id="stock" name="stock" value="{{ $data->stock }}">
             </div>
-            {{-- <div class="mb-3">
+            <div class="mb-3">
                 <label for="category" class="form-label fw-bold">Category</label>
                 <select class="form-select" id="category" name="category">
                     <option selected disabled>Choose</option>
-                    <option value="Pakaian Pria" {{ $data->category == 'Pakaian Pria' ? 'selected' : '' }}>Pakaian Pria
-                    </option>
-                    <option value="Celana Pria" {{ $data->category == 'Celana Pria' ? 'selected' : '' }}>Celana Pria
-                    </option>
-                    <option value="Sepatu Pria" {{ $data->category == 'Sepatu Pria' ? 'selected' : '' }}>Sepatu Pria
-                    </option>
-                    <option value="Tas Pria" {{ $data->category == 'Tas Pria' ? 'selected' : '' }}>Tas Pria</option>
-                    <option value="Aksesoris" {{ $data->category == 'Aksesoris' ? 'selected' : '' }}>Aksesoris</option>
-                    <option value="Jam Tangan" {{ $data->category == 'Jam Tangan' ? 'selected' : '' }}>Jam Tangan
-                    </option>
-                    <option value="Pakaian Wanita" {{ $data->category == 'Pakaian Wanita' ? 'selected' : '' }}>Pakaian
-                        Wanita</option>
-                    <option value="Fashion Muslimah" {{ $data->category == 'Fashion Muslimah' ? 'selected' : '' }}>
-                        Fashion
-                        Muslimah</option>
-                    <option value="Tas Wanita" {{ $data->category == 'Tas Wanita' ? 'selected' : '' }}>Tas Wanita
-                    </option>
-                    <option value="Sepatu Wanita" {{ $data->category == 'Sepatu Wanita' ? 'selected' : '' }}>Sepatu
-                        Wanita
-                    </option>
-                    <option value="Fashion Anak" {{ $data->category == 'Fashion Anak' ? 'selected' : '' }}>Fashion Anak
-                    </option>
-                    <option value="Sepatu Anak" {{ $data->category == 'Sepatu Anak' ? 'selected' : '' }}>Sepatu Anak
-                    </option>
+                    <option value="Tukang Saluran Air">Tukang Saluran Air</option>
+                    <option value="Tukang Beberes Rumah">Tukang Beberes Rumah</option>
+                    <option value="Tukang Bangunan">Tukang Bangunan</option>
+                    <option value="Tu{kang Pintu">Tukang Pintu</option>
+                    <option value="Tukang Kebun">Tukang Kebun</option>
+                    <option value="Tukang Listrik">Tukang Listrik</option>
+                    <option value="Tukang Plester">Tukang Plester</option>
+                    <option value="Tukang Waterproofing">Tukang Waterproofing</option>
                 </select>
-            </div> --}}
+            </div>
             {{-- <div class="mb-3">
                 <label for="size" class="form-label fw-bold">Size</label>
                 <input type="text" class="form-control" id="size" name="size"
