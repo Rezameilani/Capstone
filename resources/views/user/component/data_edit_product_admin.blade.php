@@ -35,11 +35,6 @@
                     <option value="Tukang Waterproofing">Tukang Waterproofing</option>
                 </select>
             </div>
-            {{-- <div class="mb-3">
-                <label for="size" class="form-label fw-bold">Size</label>
-                <input type="text" class="form-control" id="size" name="size"
-                    placeholder="example: S, M, L, XL" value="{{ $data->size }}">
-            </div> --}}
         </div>
     </div>
     <div class="modal-footer">

@@ -7,7 +7,7 @@
     <div class="container my-4">
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-                <form method="POST" class="position-relative">
+                {{-- <form method="POST" class="position-relative">
                     @csrf
                     <div>
                         <span class="position-absolute text-secondary fs-5" style="margin-left: 10px; line-height: 40px;">
@@ -17,7 +17,7 @@
                             name="search" id="search" placeholder="Find your favorite product..."
                             style="padding-left: 40px" required minlength="3" maxlength="100" aria-label="Search products">
                     </div>
-                </form>
+                </form> --}}
             </div>
         </div>
     </div>
@@ -68,7 +68,7 @@
             @if (auth()->user()->role == 'admin')
                 <div class="mb-3">
                     <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#add_product">Add
-                        Tukang</a>
+                        Product</a>
                 </div>
                 <div class="table-responsive">
                     <table class="table table-striped">
@@ -79,7 +79,8 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Price</th>
                                 <th scope="col">Stock</th>
-                                <th scope="col">Action</th>
+                                <<<<<<< HEAD======={{-- <th scope="col">Size</th> --}}>>>>>>> 81a8a5981117832dfb40a9c7390ceb65c8f2190b
+                                    <th scope="col">Action</th>
                             </tr>
                         </thead>
                         <tbody style="vertical-align: middle" id="product-table-body" class="search-results">
@@ -93,14 +94,14 @@
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header bg-warning">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Add Tukang</h1>
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Add Product</h1>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <form action="/my/dashboard/add-product" method="POST" id="add-product-form"
                                 enctype="multipart/form-data">
                                 @csrf
                                 <div class="modal-body">
-                                    <div id="error-message" class="alert alert-danger" style="display:none"></div>
+                                    {{-- <div id="error-message" class="alert alert-danger" style="display:none"></div> --}}
                                     <div class="row">
                                         <div class="col-md-5">
                                             <img id="preview-image" src="/assets/img/no-image.jpg" alt="no-image" width="100%"
@@ -140,13 +141,18 @@
                                                 <label for="size" class="form-label fw-bold">Size</label>
                                                 <input type="text" class="form-control" id="size" name="size"
                                                     placeholder="example: S, M, L, XL">
+                                            </div>
+                                            {{-- <div class="mb-3">
+                                                <label for="size" class="form-label fw-bold">Size</label>
+                                                <input type="text" class="form-control" id="size" name="size"
+                                                    placeholder="example: S, M, L, XL">
                                             </div> --}}
                                         </div>
                                     </div>
 
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="submit" class="btn btn-dark">Add Tukang</button>
+                                    <button type="submit" class="btn btn-dark">Add Product</button>
                                 </div>
                             </form>
                         </div>
@@ -159,7 +165,7 @@
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header bg-warning">
-                                <h5 class="modal-title" id="exampleModalLabel">Edit Tukang</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Edit Product</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
@@ -176,7 +182,7 @@
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header bg-warning">
-                                <h5 class="modal-title" id="product-detail-modal-label">Detail Tukang</h5>
+                                <h5 class="modal-title" id="product-detail-modal-label">Detail Product</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
