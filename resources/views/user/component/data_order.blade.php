@@ -65,3 +65,4 @@
 </div>
 
 @include('script_ajax.user.order_ajax')
+@include('script_ajax.user.finish_ajax')

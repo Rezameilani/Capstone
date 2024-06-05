@@ -2,6 +2,8 @@
     function read_order() {
         $.get("{{ url('my/order/read') }}", {}, function(data, status) {
             $("#data_order").html(data);
+            $("#data_finish").css("display","none");
+            $("#data_order").css("display","");
         })
     }
 

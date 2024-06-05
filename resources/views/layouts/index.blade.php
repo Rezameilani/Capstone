@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HyperMart - @yield('title')</title>
 
-    <link rel="shortcut icon" href="/assets/img/logo-hypermart-main.png">
+    <link rel="website icon" href="/assets/img/logo-hypermart-main.png" sizes="16x16" type="image/png">
 
     {{-- My CSS --}}
     <link rel="stylesheet" href="/assets/css/my.css">

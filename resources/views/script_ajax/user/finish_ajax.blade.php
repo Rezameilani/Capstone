@@ -2,7 +2,8 @@
     function read_finish() {
         $.get("{{ url('my/finish/read') }}", {}, function(data, status) {
             $("#data_finish").html(data);
-
+            $("#data_finish").css("display","");
+            $("#data_order").css("display","none");
         })
     }
     // Detele Order
